@@ -1,13 +1,15 @@
 # Academic Timetable using Java
 
-An algorithm to create an academic time-table for the classes in 4th and 6th semester has been implemented in the project.
+*An algorithm to create an academic time-table for the classes in 4th and 6th semester has been implemented in the project.*
+
+---
 
 ## Databases used
 
 ### 1. *timeslots.csv*
 > Contains the timeslots per day of the week
 
-*Sample table*
+#### *Sample table*
 
 | Day of Week | Slot | Start Time | End Time |
 |-------------|------|------------|----------|
@@ -16,7 +18,7 @@ An algorithm to create an academic time-table for the classes in 4th and 6th sem
 ### 2. *courses.csv*
 > Contains the courses with their respective slots and resource type
 
-*Sample table*
+#### *Sample table*
 
 | Code | Name          | Contact Slot | Course Type | Resource Type | Association |
 |------|---------------|--------------|-------------|---------------|-------------|
@@ -25,7 +27,7 @@ An algorithm to create an academic time-table for the classes in 4th and 6th sem
 ### 3. *instructors.csv*
 > Contains the data of all the instructors with their respective expertise
 
-*Sample table*
+#### *Sample table*
 
 | Name | Expertise1 | Expertise2 | Expertise3 | Expertise4 |
 |------|------------|------------|------------|------------|
@@ -34,7 +36,7 @@ An algorithm to create an academic time-table for the classes in 4th and 6th sem
 ### 4. *sections.csv*
 > Contains the data of all concerned sections which are to be considered in the allocation
 
-*Sample table*
+#### *Sample table*
 
 | Year | Section | Lab Section | Enrollment |
 |------|---------|-------------|------------|
@@ -43,12 +45,45 @@ An algorithm to create an academic time-table for the classes in 4th and 6th sem
 ### 5. *rooms.csv*
 > Contains the data of all available rooms
 
-*Sample table*
+#### *Sample table*
 
 | Resource | Type         | Capacity |
 |----------|--------------|----------|
 | LG3.1    | Lecture Room | 100      |
 
+----
 
+## Getting Started
 
+**1.**   Clone or Download the repository.
+
+```shell
+git clone https://github.com/DarkStar1997/Academic-Timetable-System-Using-Java
+````
+
+**2.**   Navigate into the project directory.
+
+**3.**   Open a **new terminal** here and navigate into the *src* directory using 
+
+```shell
+cd src
+```
+
+**4.**   Give necessary permissions to build by 
+
+```shell
+chmod +x build.sh
+```
+
+**5.**   Build the project
+
+```shell
+./build.sh
+```
+
+**6.**   Run 
+
+```shell
+java ATSManager
+```
 
