@@ -2,7 +2,7 @@
 
 *An algorithm to create an academic time-table for the classes in 4th and 6th semester has been implemented in the project.*
 
----
+
 
 ## Databases used
 
