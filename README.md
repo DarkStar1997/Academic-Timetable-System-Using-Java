@@ -1,7 +1,7 @@
 # Academic-Timetable-System-Using-Java
 
 ## To Run The Program : 
-  cd src/
-  chmod +x build.sh
-  ./build.sh
+  cd src <br />
+  chmod +x build.sh <br />
+  ./build.sh <br />
   java ATSManager
